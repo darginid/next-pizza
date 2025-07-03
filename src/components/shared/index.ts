@@ -1,6 +1,10 @@
 export { Container } from "./container";
-export { Categories } from './categories';
+export { Categories } from "./categories";
 export { Header } from "./header";
-export { SortPopup } from './sort-popup';
-export { Title } from './title';
-export { TopBar } from './top-bar';
+export { SortPopup } from "./sort-popup";
+export { Title } from "./title";
+export { TopBar } from "./top-bar";
+export { Filters } from "./filters";
+export { FilterCheckbox } from "./filter-checkbox";
+export { CheckboxFiltersGroup } from "./checkbox-filters-group";
+export { RangeSlider } from "./range-slider";
