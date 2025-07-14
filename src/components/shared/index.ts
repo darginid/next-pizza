@@ -2,6 +2,8 @@ export { Container } from "./container";
 export { Categories } from "./categories";
 export { Header } from "./header";
 export { SortPopup } from "./sort-popup";
+export { ProductsGroupList } from './products-group-list';
+export { ProductCard } from './product-card';
 export { Title } from "./title";
 export { TopBar } from "./top-bar";
 export { Filters } from "./filters";
