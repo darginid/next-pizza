@@ -1,4 +1,10 @@
-import { Container, Title, TopBar, Filters, ProductsGroupList } from "@/components/shared";
+import {
+  Container,
+  Title,
+  TopBar,
+  Filters,
+  ProductsGroupList,
+} from "@/components/shared";
 
 export default function Home() {
   return (
@@ -14,102 +20,102 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <div className="flex flex-col gap-16">
-              <ProductsGroupList 
+              <ProductsGroupList
                 categoryId={1}
-                title="Пиццы" 
+                title="Пиццы"
                 items={[
                   {
-                    id: 1,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 1,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 2,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 2,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 3,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 3,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 4,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 4,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 5,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 5,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 6,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 6,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
-                ]} 
-               />
-              <ProductsGroupList 
+                ]}
+              />
+              <ProductsGroupList
                 categoryId={2}
-                title="Комбо" 
+                title="Комбо"
                 items={[
                   {
-                    id: 1,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 1,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 2,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 2,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 3,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 3,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 4,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 4,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 5,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 5,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
                   {
-                    id: 6,  
-                    name: 'Чизбургер пицца',
-                    imageUrl: 'hello',
+                    id: 6,
+                    name: "Чизбургер пицца",
+                    imageUrl: "hello",
                     price: 550,
                     items: [{ price: 500 }],
                   },
-                ]} 
-               />
+                ]}
+              />
             </div>
           </div>
         </div>
