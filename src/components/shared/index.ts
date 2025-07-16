@@ -1,6 +1,7 @@
 export { Container } from "./container";
 export { Categories } from "./categories";
 export { Header } from "./header";
+export { SearchInput } from "./search-input";
 export { SortPopup } from "./sort-popup";
 export { ProductsGroupList } from "./products-group-list";
 export { ProductCard } from "./product-card";
