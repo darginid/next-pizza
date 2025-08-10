@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${nunito.variable} font-sans antialiased`}>
         <main className="min-h-screen">
-          <Header />
+          Жопа
           {children}
         </main>
       </body>
